@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "WhatsappGroups.Business Class Library",
+  "authors": [ "jreddy" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1-beta-23516",
+    "System.Collections": "4.0.11-beta-23516",
+    "System.Linq": "4.0.1-beta-23516",
+    "System.Runtime": "4.0.21-beta-23516",
+    "System.Threading": "4.0.11-beta-23516",
+    "WhatsappGroups.Data": "1.0.0",
+    "System.IdentityModel.Tokens": "5.0.0-rc1-211161024",
+    "System.Linq.Parallel": "4.0.1-beta-23516",
+    "Microsoft.Net.Http": "2.2.22",
+    "System.IdentityModel.Tokens.Jwt": "5.0.0-rc1-211161024",
+    "Microsoft.AspNet.Authentication.OpenIdConnect": "1.0.0-rc1-final",
+    "AspNet.Security.OpenIdConnect.Server": "1.0.0-beta4"
+  },
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
+}

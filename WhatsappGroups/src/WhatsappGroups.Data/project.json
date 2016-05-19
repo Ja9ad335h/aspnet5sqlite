@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "WhatsappGroups.Data Class Library",
+  "authors": [ "jreddy" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  },
+
+  "dependencies": {
+    "EntityFramework.Commands": "7.0.0-rc1-final",
+    "EntityFramework.MicrosoftSqlServer": "7.0.0-rc1-final",
+    "Microsoft.AspNet.Identity.EntityFramework": "3.0.0-rc1-final",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0-rc1-final",
+    "EntityFramework.Sqlite": "7.0.0-rc1-final",
+    "Microsoft.CSharp": "4.0.1-beta-23516",
+    "System.Collections": "4.0.11-beta-23516",
+    "System.Linq": "4.0.1-beta-23516",
+    "System.Runtime": "4.0.21-beta-23516",
+    "System.Threading": "4.0.11-beta-23516",
+    "System.ComponentModel.Annotations": "4.0.11-beta-23516"
+  },
+
+  "commands": {
+    "ef": "EntityFramework.Commands",
+    "migrate-admin": "EntityFramework.Commands migrations -c WhatsappGroupsAdminContext add ",
+    "update-admin": "EntityFramework.Commands database update -c WhatsappGroupsAdminContext"
+  }
+}
